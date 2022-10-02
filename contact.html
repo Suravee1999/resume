@@ -4,12 +4,51 @@
     <meta charset="UTF-8"> 
     <title>Document</title>
 </head>
+<style>
+    hr {
+  border-style: none; 
+  border-top-style: dotted;
+  border-color: rgb(104, 0, 0);
+  border-width:5px;
+  width: 90%;
+  }
+
+  </style>
 <body>
     <h3><a href="index.html">back to the previous page</a></h3>
     emal:  6352300804@stu.pim.ac.th
     <h1></h1>
     tel :  000000000000
-
+    <hr style="border-style:dotted;">
+    <h3>ติดต่อฉัน</h3>
+    <form id="Form1" class="" action="mailto:2001.phuphu@gmail.com" method="post" enctype="text/plain">
+    <table>
+      <tr>
+        <td><strong>ชื่อ-สกุล : </strong></td>
+        <td><input type="text" name="name_surname" placeholder="ชื่อ - สกุล" value=""></td>
+      
+      <tr>
+        <td><strong>Email : </strong> </td>
+        <td> <input type="email" name="email" placeholder="EMAIL" value=""> </td>
+      </tr>
+      <tr>
+        <td><strong>ข้อความที่ต้องการส่ง : </strong> </td>
+        <td> <textarea name="message" rows="8" cols="80"></textarea> </td>
+      </tr>
+    </table>
+    <br>
+    <br/>
+    <div class="groupBtn">
+      <button type="submit" onclick="bSubmit()" name="button" style="background-color:rgb(0, 0, 0); color:white; width:100px; height:40px; font-size:18px;" >submit</button>
+      <a href="index.html"><button type="button" style="background-color:black; color:white; width:100px; height:40px; font-size:18px;"  name="button">กลับ</button></a>
+    </div>
+    </form>
+    <script type="text/javascript">
+    function bSubmit() {
+              alert("ส่งแล้ว");
+              
+    }
+    </script>
 
 </body>
 </html>
