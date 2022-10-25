@@ -1,0 +1,33 @@
+.n1-top{
+    position: absolute;
+    width :10%;
+   top: 0px;
+   right: 00px;
+   bottom: 20px;
+   left: 100px;
+}
+
+.n1-dow{
+    position: absolute;
+    width :10%;
+    top: 50px;
+    right: 100px;
+    bottom: 200px;
+    left: 1100px;
+}
+.n2-top{
+    position: absolute;
+    width :10%;
+    top: 150px;
+    right: 100px;
+    bottom: 400px;
+    left: 1300px;
+ }
+ .n2-dow{
+    position: absolute;
+    width :10%;
+    top: 200px;
+    right: 100px;
+    bottom: 200px;
+    left: 300px;
+ }
