@@ -62,3 +62,7 @@ td{
 .circle {
     border-radius: 100%;
 }
+.page-content{
+    max-width: 100%;
+    height: auto!important;
+}
