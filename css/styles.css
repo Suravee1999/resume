@@ -36,17 +36,14 @@ h1 {
         margin-top: 0px;
      }
 body {
+    background-color: hsl(178, 52%, 89%);
     margin: 10px;
     padding: auto;
     background-color: radial-gradient(#c7c7c7 25% #ec6a6a 74%);
     height: 100vh;
     font-family: systen ui;
       } 
-div {
-    background-color: hsl(178, 52%, 89%);
-      
-      }
-   
+
 td{
     width:0% ;
 }
