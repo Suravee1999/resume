@@ -33,7 +33,7 @@ h1 {
      }
 body {
   
-        text-align: center;
+   
         position: relative;
         margin: 0;
       } 
@@ -44,4 +44,16 @@ div {
    
 td{
     width:0% ;
+}
+.middle-container{
+    text-align: center;
+}
+.top-container{
+    text-align: center;
+}
+.row{
+    width:100% 
+}
+.skill{
+    width:100%
 }
